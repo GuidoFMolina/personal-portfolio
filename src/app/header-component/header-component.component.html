@@ -1,0 +1,28 @@
+<header class="header navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <div class="center-section d-flex align-items-center">
+        <img [src]="profilePhoto" alt="Profile Photo" class="profile-photo rounded-circle me-2">
+        <span class="name navbar-brand">Guido Molina</span>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/home" routerLinkActive="active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/about-me" routerLinkActive="active">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/projects" routerLinkActive="active">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/contact" routerLinkActive="active">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  

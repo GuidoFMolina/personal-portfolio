@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './header-component.component.css'
 })
 export class HeaderComponentComponent {
-  profilePhoto: string = 'assets/images/guido.png';
+  profilePhoto: string = 'assets/images/GM.png';
 }

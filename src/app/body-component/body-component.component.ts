@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './body-component.component.css'
 })
 export class BodyComponentComponent {
-  profilePhoto: string = 'assets/images/GM.png';
+  profilePhoto: string = 'assets/images/profile-photo.png';
 }
